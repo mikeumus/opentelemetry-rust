@@ -21,7 +21,7 @@ rustdoc-args = ["--cfg", "docsrs"]
 
 [dependencies]
 async-std = { version = "1.6", optional = true }
-async-trait = "0.1"
+async-trait = "*"
 base64 = { version = "0.13", optional = true }
 futures-util = { version = "0.3", optional = true }
 http = { version = "0.2", optional = true }
